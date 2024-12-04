@@ -33,10 +33,17 @@ public class Lab {
      *
      **/
     public int whileExample(int end){
+        // assign variables with initial values
         int sum = 0;
         int i = 0;
 
-//        code here
+        // as long as the condition is true ...
+        while(i < end){
+            // adding up the number of iterations: 0 + 1 + 2 + ... series
+            sum += i;        // sum = sum + i;
+            // increment by 1
+            i += 1;          // i = i + 1;
+        }
 
         return sum;
     }
